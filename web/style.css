@@ -1,0 +1,42 @@
+p{
+    font-size: 1.5em;
+}
+
+i{
+    font-size: 0.7em; 
+    font-weight: normal;
+}
+
+select{
+    font-size: 0.9em;
+    align: center;
+}
+
+input{
+    font-size: 1.4em;
+}
+
+
+a {
+  font-size: 1.0em;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+table, th, td {
+    
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr{
+    text-align: center;
+}
+
+.error{
+    font-size: 1.5em;
+    color: red;
+    text-align: center;
+}
