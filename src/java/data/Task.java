@@ -25,9 +25,13 @@ public class Task {
         completed = 0;
     }
 
+    /**
+     * the method inserts in the database the task in the correct order
+     * 
+     * @return void
+     */
     public void insertInDB(){
 
-        //all the String values have to be insert with "\","
         try {
             DB_Connector.runCommand("INSERT INTO Task VALUES (0, " +
                     "\"" + this.time + "\"," +
@@ -41,7 +45,6 @@ public class Task {
     
     public void updateInDB(){
 
-        //all the String values have to be insert with "\","
         try {
             DB_Connector.runCommand("UPDATE Task SET time=" +
                     "\"" + this.time + "\"," +
@@ -53,6 +56,12 @@ public class Task {
             System.out.println(e.getMessage());
         }
     }
+    
+    /**
+     * the method change the status of the task from not complete to complete or vice versa
+     * 
+     * @return void
+     */
     
     public void updateStatus(int status) throws Exception{
         
@@ -172,21 +181,5 @@ public class Task {
 
         completed = 0;
     }
-
-    @Override
-    public String toString(){
-
-        String res = this.id_task + ":  " + this.time + "  -  " + this.title + "  -  " + this.project_title;
-
-        if(this.isCompleted()){
-            res = res + " V ";
-        }
-        else{
-            res = res + " X ";
-        }
-
-        return res;
-    }
-
-
+ 
 }

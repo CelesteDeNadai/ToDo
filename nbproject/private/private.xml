@@ -2,16 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/Users/tmp-sda-1176/NetBeansProjects/ToDoList/test/other/MyTimerTest.java</file>
-            <file>file:/Users/tmp-sda-1176/NetBeansProjects/ToDoList/src/java/data/TaskOrder.java</file>
-            <file>file:/Users/tmp-sda-1176/NetBeansProjects/ToDoList/web/home.jsp</file>
-            <file>file:/Users/tmp-sda-1176/NetBeansProjects/ToDoList/src/java/data/Project.java</file>
-            <file>file:/Users/tmp-sda-1176/NetBeansProjects/ToDoList/src/java/other/MyTimer.java</file>
-            <file>file:/Users/tmp-sda-1176/NetBeansProjects/ToDoList/src/java/servlets/Controller.java</file>
-            <file>file:/Users/tmp-sda-1176/NetBeansProjects/ToDoList/src/java/other/MyStrings.java</file>
-            <file>file:/Users/tmp-sda-1176/NetBeansProjects/ToDoList/web/delete-project.jsp</file>
-            <file>file:/Users/tmp-sda-1176/NetBeansProjects/ToDoList/src/java/data/Task.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

@@ -9,7 +9,7 @@ import java.util.Calendar;
 
 /**
  *
- * @author papa
+ * @author celeste De Nadai
  */
 public class MyTimer {
     
