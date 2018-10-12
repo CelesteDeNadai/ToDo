@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Controller">
+  <ClassDiagramComponents>
+    <Class name="Controller" package="servlets" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="sb" type="SessionBean" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="doGet" returnType="void" visibility="protected">
+          <Argument type="HttpServletRequest" name="request"/>
+          <Argument type="HttpServletResponse" name="response"/>
+        </Method>
+        <Method name="doPost" returnType="void" visibility="protected">
+          <Argument type="HttpServletRequest" name="request"/>
+          <Argument type="HttpServletResponse" name="response"/>
+        </Method>
+        <Method name="getServletInfo" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

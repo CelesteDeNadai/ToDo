@@ -25,7 +25,7 @@ public class Project {
 
     /**
      *
-     * @param sb the SessionBean istance of this Session
+     * @param sb the SessionBean instance of this Session
      * @param id_project the id_project from whom the project_title is loaded
      * @return the project_title of the id_project
      */
@@ -41,8 +41,8 @@ public class Project {
     }
 
     /**
-     * all projects contained in the database
-     * @return projects;
+     * 
+     * @return all projects contained in the database
      */
     public static ArrayList<Project> fetchProjects() {
 
@@ -84,7 +84,6 @@ public class Project {
 
         int id_new_project = -1;
 
-        //TUTTI I VALORI STRINGA DEVONO SEMPRE ESSERE INSERITI CON ESCAPE DELLE VIRGOLETTE
         try {
             id_new_project = DB_Connector.insertAndRetreiveIntKey("INSERT INTO Project VALUES (0, \"" + this.project_title + "\")");
         } catch (SQLException e) {
@@ -105,6 +104,12 @@ public class Project {
             System.out.println(e.getMessage());
         }
     }
+    
+    /**
+     * the method avoids having duplicated project titles
+     * 
+     * @return boolean
+     */
 
     public boolean alreadyExists() {
 

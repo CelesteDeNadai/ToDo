@@ -20,4 +20,4 @@ Healthy attitude :)
 
 ### Installing
 
-Change the password in the DB
+Change the username and password in the DB_Connector.java 

@@ -14,6 +14,7 @@ public class DB_Connector {
     private static Connection connection;
     private static final int timeout = 2;
     
+    //change username and password
     private static final String MYSQL_USERNAME = "cele";
     private static final String MYSQL_PASSWORD = "cele";
     private static final String host = "127.0.0.1:3306";
@@ -111,10 +112,8 @@ public class DB_Connector {
             key = r.getInt(1);
         }
 
-
         r.close();
         statement.close();
-
 
         return key;
     }
@@ -124,7 +123,6 @@ public class DB_Connector {
         boolean connection_open = false;
 
         connection_open = openConnection();
-
 
         if(connection_open == false){
 
@@ -153,8 +151,6 @@ public class DB_Connector {
 
     public static void closeConnection() {
 
-
-
         try {
             if(connection != null){
                 if(!connection.isClosed()) {
@@ -164,7 +160,6 @@ public class DB_Connector {
             }
         }
         catch(SQLException ex) {
-
         }
     }
 
